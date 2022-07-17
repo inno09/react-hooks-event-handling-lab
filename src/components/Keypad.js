@@ -8,9 +8,16 @@ function Keypad() {
     }
 
     return (
-        <form onChange={handleChange}>
-            <input type="password" />
-        </form>
+        <div>
+            <input
+                type="Password"
+                onChange={handleChange}
+                placeholder="Enter password..."
+            />
+        </div>
+        // <form onChange={handleChange} placeholder="Enter password...">
+        //     <input type="password" />
+        // </form>
     )
 }
 
